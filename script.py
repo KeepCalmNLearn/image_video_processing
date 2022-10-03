@@ -3,12 +3,12 @@ import os
 import glob
 
 '''
-img = cv2.imread("/Users/hemant.bharti/workspace/python/image_video_processing/sample_images/galaxy.jpg", 0)
+img = cv2.imread("/Users/hemantb/workspace/python_projects/image_video_processing/sample_images/galaxy.jpg", 0)
 print(img.shape)
 '''
 
-src_directory = r'/Users/hemant.bharti/workspace/python/image_video_processing/sample_images/'
-dest_directory = r'/Users/hemant.bharti/workspace/python/image_video_processing/resized_images/'
+src_directory = r'/Users/hemantb/workspace/python_projects/image_video_processing/sample_images/'
+dest_directory = r'/Users/hemantb/workspace/python_projects/image_video_processing/resized_images/'
 
 print("Before saving image:")
 print(os.listdir(dest_directory))
